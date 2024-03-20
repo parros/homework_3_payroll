@@ -2,6 +2,7 @@
 const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 let isMore = true
+let employeeArray = []
 
 // Collect employee data
 const collectEmployees = function() {
@@ -9,16 +10,23 @@ const collectEmployees = function() {
     const firstName = prompt('Please enter first name')
     const lastName = prompt('Please enter last name')
     const salary = prompt('Please enter salary')
-    const salaryNum = function(x) {
-      if (isNaN(x)) {
-        return 0
-      }
-      return x
+    if (isNaN(salary)) {
+      return 0
     }
     // console.log(firstName)
     // console.log(lastName)
     // console.log(salaryNum(salary))
-    isMore = confirm('Do you want to continue')
+    employeeArray.push(
+      {
+        firstName: firstName,
+        lastName: lastName, 
+        salary: Number(salary)
+      })
+    console.log(employeeArray)
+    if (isMore === !confirm('Do you want to continue?')) {
+      displayEmployees(employeeArray)
+      isMore = false
+    }
   }
 }
 
