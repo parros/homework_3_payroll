@@ -2,7 +2,7 @@
 
 ## Description
 
-I created this payroll tracker webpage to keep track of how much each employee earns sorted by last name.
+I created this payroll tracker <a href="https://parros.github.io/homework_3_payroll/" target="_blank">webpage</a> to keep track of how much each employee earns sorted by last name.
 
 ## Installation
 
