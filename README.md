@@ -1,4 +1,4 @@
-# homework_3_payroll
+# Homework 3 Payroll
 
 ## Description
 
