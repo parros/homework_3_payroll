@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-In the console log, I logged text of the average salary of the employees and a random drawing of the employees.
+In the console log, I logged text of the amount of employees, average salary, and a random drawing for employees.
 
 ## Credits
 
@@ -18,4 +18,4 @@ N/A
 
 ## License
 
-Please refer to the LICENSE in the repo.
+N/A
